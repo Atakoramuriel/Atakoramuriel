@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,42 @@
 		6119474A25D4A6BB00343AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6119474825D4A6BB00343AEA /* LaunchScreen.storyboard */; };
 		6119475525D4A6BB00343AEA /* ObsidianRuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6119475425D4A6BB00343AEA /* ObsidianRuneTests.swift */; };
 		6119476025D4A6BB00343AEA /* ObsidianRuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6119475F25D4A6BB00343AEA /* ObsidianRuneUITests.swift */; };
+		6136C75825E198C300D249F1 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136C75725E198C300D249F1 /* Messages.swift */; };
+		6136C75D25E1A48E00D249F1 /* MessageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136C75C25E1A48E00D249F1 /* MessageCard.swift */; };
+		6136C76225E1B65800D249F1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136C76125E1B65800D249F1 /* File.swift */; };
+		616E000F25EDD796001B000A /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 616E000E25EDD796001B000A /* ImagePickerView */; };
+		616E001425EDE2AD001B000A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616E001325EDE2AD001B000A /* ImagePicker.swift */; };
+		616E001925EDE93B001B000A /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616E001825EDE93B001B000A /* UploadImage.swift */; };
+		616ECF2125F04D3C00CEE8CE /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616ECF2025F04D3C00CEE8CE /* PostsModel.swift */; };
+		616ECF2625F04E2200CEE8CE /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616ECF2525F04E2200CEE8CE /* PostsViewModel.swift */; };
+		617150B925DC876800A6EAF8 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617150B825DC876800A6EAF8 /* TopBar.swift */; };
+		617150C125DC8AB900A6EAF8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617150C025DC8AB900A6EAF8 /* HomeView.swift */; };
+		617889DA25FC0C94002929A6 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617889D925FC0C93002929A6 /* GetUser.swift */; };
+		618D3AE425DA4BD4007A01AB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D3AE325DA4BD4007A01AB /* Menu.swift */; };
+		619A14D225EBF3F800089D64 /* HubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A14D125EBF3F800089D64 /* HubView.swift */; };
+		619A14F325EC15C500089D64 /* profileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A14F225EC15C500089D64 /* profileViewModel.swift */; };
+		619A153125EDBA4200089D64 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 619A153025EDBA4200089D64 /* SDWebImageSwiftUI */; };
+		619A153625EDBD6700089D64 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A153525EDBD6700089D64 /* SettingsViewModel.swift */; };
+		619A153B25EDBD9800089D64 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A153A25EDBD9800089D64 /* UserModel.swift */; };
+		619BB6C725DA097A0091DEE8 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619BB6C625DA097A0091DEE8 /* LoginPage.swift */; };
+		619BB6D525DA15480091DEE8 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619BB6D425DA15480091DEE8 /* BottomNavBar.swift */; };
+		619BB6DA25DA19010091DEE8 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619BB6D925DA19010091DEE8 /* Main.swift */; };
+		619BB6DF25DA1D100091DEE8 /* UserPostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619BB6DE25DA1D100091DEE8 /* UserPostCard.swift */; };
+		619BB6E425DA1E1F0091DEE8 /* profileImgCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619BB6E325DA1E1F0091DEE8 /* profileImgCircle.swift */; };
+		619EAB0A25D9CD0700B724C4 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619EAB0925D9CD0700B724C4 /* Register.swift */; };
+		619EAB0F25D9CEBC00B724C4 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619EAB0E25D9CEBC00B724C4 /* TextArea.swift */; };
+		61A74F1C25EB0AD500F5243E /* Social_ApplApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A74F1B25EB0AD500F5243E /* Social_ApplApp.swift */; };
+		61A74F3A25EB0DF800F5243E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A74F3925EB0DF800F5243E /* LoginViewModel.swift */; };
+		61A74F6325EB1DCC00F5243E /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A74F6225EB1DCC00F5243E /* RegisterViewModel.swift */; };
+		61A74F8725EB45FC00F5243E /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A74F8625EB45FC00F5243E /* SessionStore.swift */; };
+		61A74FA525EB540C00F5243E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A74FA425EB540C00F5243E /* AuthView.swift */; };
+		61CCAC5525D8B627003CA63C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CCAC5425D8B626003CA63C /* CircleImage.swift */; };
+		61E19B9C25E1E4BD007071C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61E19B9B25E1E4BD007071C1 /* GoogleService-Info.plist */; };
+		61E6C99025DC9273003C7F82 /* titleBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6C98F25DC9273003C7F82 /* titleBanner.swift */; };
+		61E6C99B25DC96D9003C7F82 /* BottomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6C99A25DC96D9003C7F82 /* BottomNav.swift */; };
+		90EDBB575F632D20B764DF75 /* Pods_ObsidianRune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C371C3A52353632C957B050D /* Pods_ObsidianRune.framework */; };
+		CE33B7FE4BAE2538FB04BBB9 /* Pods_ObsidianRuneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F3758841FDFE1283616490 /* Pods_ObsidianRuneTests.framework */; };
+		E0DC49E070D26B1509763A9B /* Pods_ObsidianRune_ObsidianRuneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC095BCEF1D6DAC7782D67B3 /* Pods_ObsidianRune_ObsidianRuneUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D25A2D14D5777A33D16B318 /* Pods-ObsidianRuneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObsidianRuneTests.debug.xcconfig"; path = "Target Support Files/Pods-ObsidianRuneTests/Pods-ObsidianRuneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FE124653ED2789B9E6BA4DD /* Pods-ObsidianRune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObsidianRune.debug.xcconfig"; path = "Target Support Files/Pods-ObsidianRune/Pods-ObsidianRune.debug.xcconfig"; sourceTree = "<group>"; };
+		60130DA0C81A45FF0AEEF7A9 /* Pods-ObsidianRune-ObsidianRuneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObsidianRune-ObsidianRuneUITests.release.xcconfig"; path = "Target Support Files/Pods-ObsidianRune-ObsidianRuneUITests/Pods-ObsidianRune-ObsidianRuneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6119473A25D4A6BA00343AEA /* ObsidianRune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObsidianRune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6119473D25D4A6BA00343AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6119473F25D4A6BA00343AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +88,43 @@
 		6119475B25D4A6BB00343AEA /* ObsidianRuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObsidianRuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6119475F25D4A6BB00343AEA /* ObsidianRuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianRuneUITests.swift; sourceTree = "<group>"; };
 		6119476125D4A6BB00343AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6136C75725E198C300D249F1 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		6136C75C25E1A48E00D249F1 /* MessageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCard.swift; sourceTree = "<group>"; };
+		6136C76125E1B65800D249F1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		616E001325EDE2AD001B000A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		616E001825EDE93B001B000A /* UploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
+		616ECF2025F04D3C00CEE8CE /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		616ECF2525F04E2200CEE8CE /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		617150B825DC876800A6EAF8 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		617150C025DC8AB900A6EAF8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		617889D925FC0C93002929A6 /* GetUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUser.swift; sourceTree = "<group>"; };
+		618D3AE325DA4BD4007A01AB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		619A14D125EBF3F800089D64 /* HubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubView.swift; sourceTree = "<group>"; };
+		619A14F225EC15C500089D64 /* profileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewModel.swift; sourceTree = "<group>"; };
+		619A153525EDBD6700089D64 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		619A153A25EDBD9800089D64 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		619BB6C625DA097A0091DEE8 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		619BB6D425DA15480091DEE8 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		619BB6D925DA19010091DEE8 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		619BB6DE25DA1D100091DEE8 /* UserPostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostCard.swift; sourceTree = "<group>"; };
+		619BB6E325DA1E1F0091DEE8 /* profileImgCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileImgCircle.swift; sourceTree = "<group>"; };
+		619EAB0925D9CD0700B724C4 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		619EAB0E25D9CEBC00B724C4 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		61A74F1B25EB0AD500F5243E /* Social_ApplApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_ApplApp.swift; sourceTree = "<group>"; };
+		61A74F3925EB0DF800F5243E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		61A74F6225EB1DCC00F5243E /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		61A74F8625EB45FC00F5243E /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		61A74FA425EB540C00F5243E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		61CCAC5425D8B626003CA63C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		61E19B9B25E1E4BD007071C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		61E6C98F25DC9273003C7F82 /* titleBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleBanner.swift; sourceTree = "<group>"; };
+		61E6C99A25DC96D9003C7F82 /* BottomNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNav.swift; sourceTree = "<group>"; };
+		6B109FCF0B52F41E4E72D5DA /* Pods-ObsidianRuneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObsidianRuneTests.release.xcconfig"; path = "Target Support Files/Pods-ObsidianRuneTests/Pods-ObsidianRuneTests.release.xcconfig"; sourceTree = "<group>"; };
+		82F3758841FDFE1283616490 /* Pods_ObsidianRuneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObsidianRuneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89817F7A1CA0C976A00F3F0D /* Pods-ObsidianRune-ObsidianRuneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObsidianRune-ObsidianRuneUITests.debug.xcconfig"; path = "Target Support Files/Pods-ObsidianRune-ObsidianRuneUITests/Pods-ObsidianRune-ObsidianRuneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C371C3A52353632C957B050D /* Pods_ObsidianRune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObsidianRune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F647769E2FCD5D84E6D93DB3 /* Pods-ObsidianRune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObsidianRune.release.xcconfig"; path = "Target Support Files/Pods-ObsidianRune/Pods-ObsidianRune.release.xcconfig"; sourceTree = "<group>"; };
+		FC095BCEF1D6DAC7782D67B3 /* Pods_ObsidianRune_ObsidianRuneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObsidianRune_ObsidianRuneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +132,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616E000F25EDD796001B000A /* ImagePickerView in Frameworks */,
+				619A153125EDBA4200089D64 /* SDWebImageSwiftUI in Frameworks */,
+				90EDBB575F632D20B764DF75 /* Pods_ObsidianRune.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE33B7FE4BAE2538FB04BBB9 /* Pods_ObsidianRuneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +150,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DC49E070D26B1509763A9B /* Pods_ObsidianRune_ObsidianRuneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41A89D9A842EA4CC589B477B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C371C3A52353632C957B050D /* Pods_ObsidianRune.framework */,
+				FC095BCEF1D6DAC7782D67B3 /* Pods_ObsidianRune_ObsidianRuneUITests.framework */,
+				82F3758841FDFE1283616490 /* Pods_ObsidianRuneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		579CA0A1C418C647FA1F128E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FE124653ED2789B9E6BA4DD /* Pods-ObsidianRune.debug.xcconfig */,
+				F647769E2FCD5D84E6D93DB3 /* Pods-ObsidianRune.release.xcconfig */,
+				89817F7A1CA0C976A00F3F0D /* Pods-ObsidianRune-ObsidianRuneUITests.debug.xcconfig */,
+				60130DA0C81A45FF0AEEF7A9 /* Pods-ObsidianRune-ObsidianRuneUITests.release.xcconfig */,
+				4D25A2D14D5777A33D16B318 /* Pods-ObsidianRuneTests.debug.xcconfig */,
+				6B109FCF0B52F41E4E72D5DA /* Pods-ObsidianRuneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6119473125D4A6BA00343AEA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +187,8 @@
 				6119475325D4A6BB00343AEA /* ObsidianRuneTests */,
 				6119475E25D4A6BB00343AEA /* ObsidianRuneUITests */,
 				6119473B25D4A6BA00343AEA /* Products */,
+				579CA0A1C418C647FA1F128E /* Pods */,
+				41A89D9A842EA4CC589B477B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +206,27 @@
 			isa = PBXGroup;
 			children = (
 				6119473D25D4A6BA00343AEA /* AppDelegate.swift */,
+				61A74F1425EB090600F5243E /* View */,
+				61A74F1525EB090E00F5243E /* Model */,
 				6119473F25D4A6BA00343AEA /* SceneDelegate.swift */,
+				61A74F1725EB092100F5243E /* ViewModel */,
+				61CCAC5425D8B626003CA63C /* CircleImage.swift */,
+				61A74F8625EB45FC00F5243E /* SessionStore.swift */,
+				619BB6E325DA1E1F0091DEE8 /* profileImgCircle.swift */,
+				619EAB0E25D9CEBC00B724C4 /* TextArea.swift */,
+				61A74F1B25EB0AD500F5243E /* Social_ApplApp.swift */,
 				6119474125D4A6BA00343AEA /* ContentView.swift */,
+				619BB6D925DA19010091DEE8 /* Main.swift */,
+				617150C025DC8AB900A6EAF8 /* HomeView.swift */,
+				6136C75725E198C300D249F1 /* Messages.swift */,
+				6136C76125E1B65800D249F1 /* File.swift */,
+				6136C75C25E1A48E00D249F1 /* MessageCard.swift */,
+				617150B825DC876800A6EAF8 /* TopBar.swift */,
+				61E6C98F25DC9273003C7F82 /* titleBanner.swift */,
+				619BB6DE25DA1D100091DEE8 /* UserPostCard.swift */,
+				619BB6D425DA15480091DEE8 /* BottomNavBar.swift */,
+				61E6C99A25DC96D9003C7F82 /* BottomNav.swift */,
+				61E19B9B25E1E4BD007071C1 /* GoogleService-Info.plist */,
 				6119474325D4A6BB00343AEA /* Assets.xcassets */,
 				6119474825D4A6BB00343AEA /* LaunchScreen.storyboard */,
 				6119474B25D4A6BB00343AEA /* Info.plist */,
@@ -136,6 +261,42 @@
 			path = ObsidianRuneUITests;
 			sourceTree = "<group>";
 		};
+		61A74F1425EB090600F5243E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				619BB6C625DA097A0091DEE8 /* LoginPage.swift */,
+				61A74FA425EB540C00F5243E /* AuthView.swift */,
+				619A14D125EBF3F800089D64 /* HubView.swift */,
+				619EAB0925D9CD0700B724C4 /* Register.swift */,
+				618D3AE325DA4BD4007A01AB /* Menu.swift */,
+				616ECF2525F04E2200CEE8CE /* PostsViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61A74F1525EB090E00F5243E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61A74F3925EB0DF800F5243E /* LoginViewModel.swift */,
+				619A153A25EDBD9800089D64 /* UserModel.swift */,
+				619A14F225EC15C500089D64 /* profileViewModel.swift */,
+				61A74F6225EB1DCC00F5243E /* RegisterViewModel.swift */,
+				619A153525EDBD6700089D64 /* SettingsViewModel.swift */,
+				616ECF2025F04D3C00CEE8CE /* PostsModel.swift */,
+				617889D925FC0C93002929A6 /* GetUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61A74F1725EB092100F5243E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				616E001325EDE2AD001B000A /* ImagePicker.swift */,
+				616E001825EDE93B001B000A /* UploadImage.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,15 +304,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6119476425D4A6BB00343AEA /* Build configuration list for PBXNativeTarget "ObsidianRune" */;
 			buildPhases = (
+				99E4E19BF1685E14B6816E7F /* [CP] Check Pods Manifest.lock */,
 				6119473625D4A6BA00343AEA /* Sources */,
 				6119473725D4A6BA00343AEA /* Frameworks */,
 				6119473825D4A6BA00343AEA /* Resources */,
+				63AF1C8A58A59E0683B2D857 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ObsidianRune;
+			packageProductDependencies = (
+				619A153025EDBA4200089D64 /* SDWebImageSwiftUI */,
+				616E000E25EDD796001B000A /* ImagePickerView */,
+			);
 			productName = ObsidianRune;
 			productReference = 6119473A25D4A6BA00343AEA /* ObsidianRune.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6119476725D4A6BB00343AEA /* Build configuration list for PBXNativeTarget "ObsidianRuneTests" */;
 			buildPhases = (
+				2E62B7339F03844FCE3BCB1C /* [CP] Check Pods Manifest.lock */,
 				6119474C25D4A6BB00343AEA /* Sources */,
 				6119474D25D4A6BB00343AEA /* Frameworks */,
 				6119474E25D4A6BB00343AEA /* Resources */,
@@ -178,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6119476A25D4A6BB00343AEA /* Build configuration list for PBXNativeTarget "ObsidianRuneUITests" */;
 			buildPhases = (
+				E4E822AB251A4D324C50EED3 /* [CP] Check Pods Manifest.lock */,
 				6119475725D4A6BB00343AEA /* Sources */,
 				6119475825D4A6BB00343AEA /* Frameworks */,
 				6119475925D4A6BB00343AEA /* Resources */,
+				F1C0EA0008686EBB3D160725 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +393,10 @@
 				Base,
 			);
 			mainGroup = 6119473125D4A6BA00343AEA;
+			packageReferences = (
+				619A152F25EDBA4200089D64 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				616E000D25EDD796001B000A /* XCRemoteSwiftPackageReference "ImagePickerView" */,
+			);
 			productRefGroup = 6119473B25D4A6BA00343AEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -242,6 +416,7 @@
 				6119474A25D4A6BB00343AEA /* LaunchScreen.storyboard in Resources */,
 				6119474725D4A6BB00343AEA /* Preview Assets.xcassets in Resources */,
 				6119474425D4A6BB00343AEA /* Assets.xcassets in Resources */,
+				61E19B9C25E1E4BD007071C1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +436,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E62B7339F03844FCE3BCB1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObsidianRuneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63AF1C8A58A59E0683B2D857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObsidianRune/Pods-ObsidianRune-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObsidianRune/Pods-ObsidianRune-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObsidianRune/Pods-ObsidianRune-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E4E19BF1685E14B6816E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObsidianRune-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E822AB251A4D324C50EED3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObsidianRune-ObsidianRuneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C0EA0008686EBB3D160725 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObsidianRune-ObsidianRuneUITests/Pods-ObsidianRune-ObsidianRuneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObsidianRune-ObsidianRuneUITests/Pods-ObsidianRune-ObsidianRuneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObsidianRune-ObsidianRuneUITests/Pods-ObsidianRune-ObsidianRuneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6119473625D4A6BA00343AEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A74F8725EB45FC00F5243E /* SessionStore.swift in Sources */,
+				619BB6DF25DA1D100091DEE8 /* UserPostCard.swift in Sources */,
+				617150C125DC8AB900A6EAF8 /* HomeView.swift in Sources */,
+				617889DA25FC0C94002929A6 /* GetUser.swift in Sources */,
+				619BB6DA25DA19010091DEE8 /* Main.swift in Sources */,
+				619BB6C725DA097A0091DEE8 /* LoginPage.swift in Sources */,
+				61E6C99B25DC96D9003C7F82 /* BottomNav.swift in Sources */,
+				6136C75825E198C300D249F1 /* Messages.swift in Sources */,
 				6119473E25D4A6BA00343AEA /* AppDelegate.swift in Sources */,
+				61A74F1C25EB0AD500F5243E /* Social_ApplApp.swift in Sources */,
+				6136C75D25E1A48E00D249F1 /* MessageCard.swift in Sources */,
+				617150B925DC876800A6EAF8 /* TopBar.swift in Sources */,
+				616ECF2125F04D3C00CEE8CE /* PostsModel.swift in Sources */,
+				619EAB0F25D9CEBC00B724C4 /* TextArea.swift in Sources */,
+				61CCAC5525D8B627003CA63C /* CircleImage.swift in Sources */,
+				61E6C99025DC9273003C7F82 /* titleBanner.swift in Sources */,
+				61A74FA525EB540C00F5243E /* AuthView.swift in Sources */,
+				618D3AE425DA4BD4007A01AB /* Menu.swift in Sources */,
+				619BB6D525DA15480091DEE8 /* BottomNavBar.swift in Sources */,
+				616E001425EDE2AD001B000A /* ImagePicker.swift in Sources */,
+				61A74F6325EB1DCC00F5243E /* RegisterViewModel.swift in Sources */,
+				616ECF2625F04E2200CEE8CE /* PostsViewModel.swift in Sources */,
+				619A14D225EBF3F800089D64 /* HubView.swift in Sources */,
 				6119474025D4A6BA00343AEA /* SceneDelegate.swift in Sources */,
+				619BB6E425DA1E1F0091DEE8 /* profileImgCircle.swift in Sources */,
+				616E001925EDE93B001B000A /* UploadImage.swift in Sources */,
 				6119474225D4A6BA00343AEA /* ContentView.swift in Sources */,
+				619A153B25EDBD9800089D64 /* UserModel.swift in Sources */,
+				619A14F325EC15C500089D64 /* profileViewModel.swift in Sources */,
+				6136C76225E1B65800D249F1 /* File.swift in Sources */,
+				619EAB0A25D9CD0700B724C4 /* Register.swift in Sources */,
+				61A74F3A25EB0DF800F5243E /* LoginViewModel.swift in Sources */,
+				619A153625EDBD6700089D64 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -421,6 +730,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -433,6 +743,7 @@
 		};
 		6119476525D4A6BB00343AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE124653ED2789B9E6BA4DD /* Pods-ObsidianRune.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,15 +756,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ObsidianRune.ObsidianRune.ObsidianRune;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ObsidianRune.ObsidianRune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6119476625D4A6BB00343AEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F647769E2FCD5D84E6D93DB3 /* Pods-ObsidianRune.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,15 +778,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ObsidianRune.ObsidianRune.ObsidianRune;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ObsidianRune.ObsidianRune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		6119476825D4A6BB00343AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D25A2D14D5777A33D16B318 /* Pods-ObsidianRuneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +810,7 @@
 		};
 		6119476925D4A6BB00343AEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B109FCF0B52F41E4E72D5DA /* Pods-ObsidianRuneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +833,7 @@
 		};
 		6119476B25D4A6BB00343AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89817F7A1CA0C976A00F3F0D /* Pods-ObsidianRune-ObsidianRuneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +854,7 @@
 		};
 		6119476C25D4A6BB00343AEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60130DA0C81A45FF0AEEF7A9 /* Pods-ObsidianRune-ObsidianRuneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +913,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		616E000D25EDD796001B000A /* XCRemoteSwiftPackageReference "ImagePickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ralfebert/ImagePickerView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		619A152F25EDBA4200089D64 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		616E000E25EDD796001B000A /* ImagePickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 616E000D25EDD796001B000A /* XCRemoteSwiftPackageReference "ImagePickerView" */;
+			productName = ImagePickerView;
+		};
+		619A153025EDBA4200089D64 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 619A152F25EDBA4200089D64 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6119473225D4A6BA00343AEA /* Project object */;
 }
